@@ -8,7 +8,7 @@ const headingFont = localFont({
   src: "../../public/fonts/Merriweather/Merriweather-Bold.ttf",
 });
 
-function Logo() {
+export function Logo() {
   return (
     <Link href="/">
       <div className="hover:opacity-75 transition items-center gap-x-2 hidden md:flex">
@@ -18,4 +18,3 @@ function Logo() {
     </Link>
   );
 }
-export default Logo;
